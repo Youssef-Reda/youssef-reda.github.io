@@ -1009,7 +1009,7 @@ label.error {
   background-repeat: no-repeat;
   background-position: 50% 50%;
 }
-.slide-intro-man {
+/* .slide-intro-man {
   background-image: url(../img/bg-personal-intro-man.png);
   background-position: 66% 50%;
 }
@@ -1021,7 +1021,7 @@ label.error {
   background-position: 0 100%;
   bottom: 0;
   right: 13.02083333%;
-}
+} */
 .slide-intro-circle1 {
   width: 10.0625rem;
   height: 10.0625rem;
@@ -1348,7 +1348,7 @@ label.error {
   background-image: url(../img/bg-personal-clients.png);
 }
 .slide-personal-clients .slide-title-info {
-  margin-bottom: 12.40740741vmin;
+  margin-bottom: 4.407407vmin;
 }
 .title-mini {
   font-size: 0.875rem;
