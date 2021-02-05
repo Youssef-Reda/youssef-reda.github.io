@@ -1017,7 +1017,7 @@ label.error {
 .slide-intro-man2 {
   width: 36.82291667%;
   height: 91.01851852%;
-  background-image: url(../img/bg-personal-intro-man2.png);
+  background-image: url(../img/bg-personal-intro-man2.jpg);
   background-size: contain;
   background-position: 0 100%;
   bottom: 0;
@@ -1204,7 +1204,7 @@ label.error {
   text-decoration: none;
 }
 .slide-personal-awards .slide-bg {
-  background-image: url(../img/bg-personal-awards.png);
+  background-image: url(../img/bg-personal-awards.jpg);
 }
 .slide-awards-circle1 {
   width: 8.125rem;
@@ -1346,7 +1346,7 @@ label.error {
   }
 }
 .slide-personal-clients .slide-bg {
-  background-image: url(../img/bg-personal-clients.png);
+  background-image: url(../img/bg-personal-clients.jpg);
 }
 .slide-personal-clients .slide-title-info {
   margin-bottom: 4.407407vmin;
@@ -1365,7 +1365,7 @@ label.error {
   vertical-align: top;
   width: 3.75rem;
   height: 3.75rem;
-  background-image: url(../img/icon-partners.png);
+  background-image: url(../img/icon-partners.jpg);
   background-position: 50% 50%;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -1375,7 +1375,7 @@ label.error {
   vertical-align: top;
   width: 3.75rem;
   height: 3.75rem;
-  background-image: url(../img/icon-project.png);
+  background-image: url(../img/icon-project.jpg);
   background-position: 50% 50%;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -1385,7 +1385,7 @@ label.error {
   vertical-align: top;
   width: 3.75rem;
   height: 3.75rem;
-  background-image: url(../img/icon-worldwide.png);
+  background-image: url(../img/icon-worldwide.jpg);
   background-position: 50% 50%;
   background-size: 100%;
   background-repeat: no-repeat;
