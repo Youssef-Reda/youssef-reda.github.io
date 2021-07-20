@@ -1170,7 +1170,7 @@ label.error {
   }
 }
 .carousel-project-item {
-  background-position: 50% 50%;
+  background-position: left;
   background-size: cover;
   background-repeat: no-repeat;
 }
