@@ -29,7 +29,7 @@
         "Projects",
         "Experience",
         "Awards",
-        "Clients",
+        "Activities",
         "Testimonials",
         "Contact",
       ],
