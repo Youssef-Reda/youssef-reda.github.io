@@ -11,16 +11,6 @@
 
         gtag('config', 'G-YLZSGDXWF1');
     </script>
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-    <script>
-        // function showit() {
-        //     // SHOW
-        //     document.getElementsByClassName("control-btn").style.visibility = "visible";
-        // }
-        function enableBtn() {
-            document.getElementById("button1").disabled = false;
-        }
-    </script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=0">
     <meta name="description" content="Youssef Reda Portfolio">
@@ -744,28 +734,12 @@
                                 <div class="col-lg-5 animate-element delay7 fadeInUp">
                                     <div class="slide-title-info">Let's grab a coffee and jump on conversation <span
                                             class="text-primary">send me an email.</span></div>
-                                    <!-- <div>
-                                        <form action="mail.php" method="POST">
-                                            <div class="g-recaptcha"
-                                                data-sitekey="6LddIdEbAAAAAMjbDbf0KhHHL_uQO7lywt-7YXGf"></div>
-                                        </form>
-                                    </div>
-                                    <div class="control-btn">
-                                        <a href="mailto:yousefreda_gad99@live.com" class="btn btn-success"><strong><span
-                                                    class="__cf_email__">Send
-                                                    message</span></strong></a>
-                                    </div> -->
                                     <form action="mail.php" method="post">
                                         <div class="g-recaptcha" data-sitekey="6LddIdEbAAAAAMjbDbf0KhHHL_uQO7lywt-7YXGf"
                                             data-callback="enableBtn"></div>
                                         <div class="control-btn">
                                             <input type="button" value="Send Message" id="button1" disabled="disabled"
                                                 onclick="location.href='mailto:yousefreda_gad99@live.com';">
-
-                                            <!-- <a href="mailto:yousefreda_gad99@live.com" class="btn btn-success"
-                                                type="button" id="button1" disabled="disabled"><strong><span
-                                                        class="__cf_email__">Send
-                                                        message</span></strong></a> -->
                                         </div>
                                     </form>
                                 </div>
@@ -794,6 +768,12 @@
     <script src="js\jquery.pagepiling.min.js"></script>
     <script src="js\jquery.fancybox.min.js"></script>
     <script src="js\jquery.validate.min.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script>
+        function enableBtn() {
+            document.getElementById("button1").disabled = false;
+        }
+    </script>
     <script src="js\script.js"></script>
 </body>
 

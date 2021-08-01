@@ -122,9 +122,17 @@ input:focus {
   min-width: calc(0.875rem + 1.5em + 2px);
 }
 .control-btn {
-  /* pointer-events: none;
-  cursor: default; */
   margin-top: 2rem;
+}
+
+#button1 {
+  background-color: rgba(52, 160, 52, 0.596);
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 25px;
+  border: none;
 }
 select.form-control {
   background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCA2NCA2NCc+PHBhdGggZmlsbD0nIzAwMDAwMCcgZD0nTTMyLDQ4LjFjLTEuMywwLTIuNC0wLjUtMy41LTEuM0wwLjgsMjAuN2MtMS4xLTEuMS0xLjEtMi43LDAtMy43YzEuMS0xLjEsMi43LTEuMSwzLjcsMEwzMiw0Mi44bDI3LjUtMjYuMSBjMS4xLTEuMSwyLjctMS4xLDMuNywwYzEuMSwxLjEsMS4xLDIuNywwLDMuN0wzNS41LDQ2LjVDMzQuNCw0Ny45LDMzLjMsNDguMSwzMiw0OC4xeicvPjwvc3ZnPg==);
