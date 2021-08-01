@@ -12,6 +12,15 @@
         gtag('config', 'G-YLZSGDXWF1');
     </script>
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script>
+        function showit() {
+            // SHOW
+            document.getElementsByClassName("control-btn").style.visibility = "visible";
+        }
+        function enableBtn() {
+            document.getElementById("button1").disabled = false;
+        }
+    </script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=0">
     <meta name="description" content="Youssef Reda Portfolio">
@@ -71,9 +80,8 @@
                             <div class="header-contacts">
                                 <div class="header-contact-item">Call me.&nbsp; <a href="tel:+201115573173"
                                         class="phone-link">(+20) 111 557 3173</a></div>
-                                <div class="header-contact-divider">/</div>
-                                <div class="header-contact-item"><a
-                                        class="mail-link"><span
+                                <div class="header-contact-divider">|</div>
+                                <div class="header-contact-item"><a class="mail-link"><span
                                             class="__cf_email__">yousefreda_gad99@live.com</span></a>
                                 </div>
                             </div>
@@ -736,17 +744,25 @@
                                 <div class="col-lg-5 animate-element delay7 fadeInUp">
                                     <div class="slide-title-info">Let's grab a coffee and jump on conversation <span
                                             class="text-primary">send me an email.</span></div>
-                                    <div>
+                                    <!-- <div>
                                         <form action="mail.php" method="POST">
                                             <div class="g-recaptcha"
                                                 data-sitekey="6LddIdEbAAAAAMjbDbf0KhHHL_uQO7lywt-7YXGf"></div>
-                                            <br />
                                         </form>
                                     </div>
                                     <div class="control-btn">
-                                        <a href="mailto:yousefreda_gad99@live.com"  class="btn btn-success"><strong><span class="__cf_email__">Send
+                                        <a href="mailto:yousefreda_gad99@live.com" class="btn btn-success"><strong><span
+                                                    class="__cf_email__">Send
                                                     message</span></strong></a>
-                                    </div>
+                                    </div> -->
+                                    <form action="mail.php" method="post">
+                                        <div class="g-recaptcha" data-sitekey="6LddIdEbAAAAAMjbDbf0KhHHL_uQO7lywt-7YXGf"
+                                            data-callback="enableBtn"></div>
+                                        <div class="control-btn">
+                                            <input class="btn btn-success" class="__cf_email__" type="button"
+                                                value="Send Message" id="button1" disabled="disabled">
+                                        </div>
+                                    </form>
                                 </div>
                             </div>
                         </div>

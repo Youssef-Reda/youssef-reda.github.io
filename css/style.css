@@ -122,6 +122,8 @@ input:focus {
   min-width: calc(0.875rem + 1.5em + 2px);
 }
 .control-btn {
+  pointer-events: none;
+  cursor: default;
   margin-top: 2rem;
 }
 select.form-control {
